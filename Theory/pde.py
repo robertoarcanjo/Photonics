@@ -13,8 +13,8 @@ a = 2
 b = 2
 Vo = 1
 
-X = np.arange(0, 2, 0.1)
-Y = np.arange(0, 2, 0.1)
+X = np.arange(0, a, 0.1)
+Y = np.arange(0, b, 0.1)
 X, Y = np.meshgrid(X, Y)
 Z = U_v2(Vo, X, Y, 100, a, b)
 
