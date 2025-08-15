@@ -5,8 +5,8 @@ import numpy as np
 def U_v2(Vo,x,y,n,a,b):
     U = 0
 
-    for i in range(2, n):
-        U += (4*Vo/((2*i)*np.pi))*(1/np.sinh((2*i)*np.pi*a/b))*np.sinh((2*i)*np.pi*x/b)*np.sin((2*i)*np.pi*y/b)
+    for i in range(1, n+1, 2):
+        U += (4*Vo/((i)*np.pi))*(1/np.sinh((i)*np.pi*a/b))*np.sinh((i)*np.pi*x/b)*np.sin((i)*np.pi*y/b)
     return U
 
 a = 2
