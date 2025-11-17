@@ -1,0 +1,21 @@
+{
+    "solver":{
+        "type": "yee-algorithm"
+    },
+    "structure": {
+        "type": "slab",
+        "width": 450e-9,
+        "height-2a": 220e-9
+    },
+    "basic-params": {
+        "wavelength": 1.55e-6,
+        "mode-polarization": "TE",
+        "num-modes": 5,
+        "eta_c": 1.5,
+        "eta_f": 3.5,
+        "eta_s": 1.5
+    },
+    "grid": {
+        "N": 20
+    }
+}
