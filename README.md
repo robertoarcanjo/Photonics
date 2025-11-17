@@ -4,7 +4,9 @@ A repository dedicated to the implementation and organization of theoretical con
 
 # Contents
 
-- 
+- Class materials;
+
+- Numerical solver;
 
 ### References
 
