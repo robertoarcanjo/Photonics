@@ -4,18 +4,17 @@
     },
     "structure": {
         "type": "slab",
-        "width": 450e-9,
-        "height-2a": 220e-9
+        "height-2a": 2.6e-6
     },
     "basic-params": {
         "wavelength": 1.55e-6,
         "mode-polarization": "TE",
-        "num-modes": 5,
-        "eta_c": 1.5,
+        "num-modes": 3,
+        "eta_c": 1.0,
         "eta_f": 3.5,
-        "eta_s": 1.5
+        "eta_s": 1.0
     },
     "grid": {
-        "N": 20
+        "N": 10
     }
 }

@@ -21,8 +21,8 @@ flowchart LR
     param --> Software
     subgraph Software
         direction TB
-        A[Initialize Solver] --> B[Waveguide Geometry]
-        B --> C[Grid]
+        A[Initialize Solver] --> B[Grid]
+        B --> C[Waveguide Geometry]
         C --> D[Equations]
         D --> E[Solve]
     end
