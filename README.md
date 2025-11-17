@@ -10,7 +10,7 @@ A repository dedicated to the implementation and organization of theoretical con
 
 # Numerical Solver
 
-## Main sctructure
+## Main structure
 
 ```mermaid
 flowchart LR
@@ -34,6 +34,8 @@ flowchart LR
     Output --> F
 ```
 
-### References
+
+
+## References
 
 - Orfanidis, Sophocles J. "Electromagnetic waves and antennas." (2008).

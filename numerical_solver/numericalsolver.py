@@ -35,7 +35,8 @@ class NumericalSolver:
     def solve(self):
 
         if self.params["solver"]["type"] == "yee-algorithm":
-            pass
+            print("Yee-algorithm selected")
+            
         else:
             pass
 
