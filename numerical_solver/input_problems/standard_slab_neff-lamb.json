@@ -1,13 +1,13 @@
 {
     "solver":{
-        "type": "yee-algorithm"
+        "type": "neff-lambda"
     },
     "structure": {
         "type": "slab",
         "height-2a": 1.6e-6
     },
     "basic-params": {
-        "wavelength": 1.55e-6,
+        "wavelength": [0.5e-6, 5e-6, 10],
         "mode-polarization": "TE",
         "num-modes": 3,
         "eta_c": 1.0,
