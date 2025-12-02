@@ -20,7 +20,7 @@ class NumericalSolver:
     def __init__(self, jsonPath):
         self.micro_m = 1e-6
         self.params = self.loadParams(jsonPath)
-        self.spacer = self.params['basic-params']['wavelength']* np.array([3,3,2,2])
+        self.spacer = self.params['basic-params']['wavelength']* np.array([4,4,2,2])
         #self.spacer = 2.6e-6
 
     def loadParams(self, jsonPath):
