@@ -4,34 +4,15 @@ A repository dedicated to the implementation and organization of theoretical con
 
 # Contents
 
-- Class materials;
-
-- Numerical solver;
-
-# Numerical Solver
-
-## Main structure
-
 ```mermaid
-flowchart LR
-    subgraph Input
-        direction TB
-        param@{ shape: doc, label: "parameters.json" }
-    end
-    param --> Software
-    subgraph Software
-        direction TB
-        A[Initialize Solver] --> B[Grid]
-        B --> C[Waveguide Geometry]
-        C --> D[Equations]
-        D --> E[Solve]
-    end
-    F[Analysis]
-    subgraph Output
-        out@{ shape: doc, label: "Solution.HDF5" }
-    end
-    Software --> Output
-    Output --> F
+flowchart TD
+    A[Electrodynamics]
+    B[Numerical Methods]
+    C[Waveguides]
+    D[Photonic Devices]
+    A ---> C
+    B ---> C
+    C ---> D
 ```
 
 
